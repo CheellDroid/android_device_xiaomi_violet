@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_xiaomi_violet",
+    "repository": "android_kernel_motorola_ocean",
     "target_path": "kernel/xiaomi/sm6150"
   },
   {
@@ -8,8 +8,8 @@
     "target_path": "packages/resources/devicesettings"
   },
   {
-    "repository": "proprietary_vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi/violet"
+    "repository": "proprietary_vendor_motorola_ocean",
+    "target_path": "vendor/motorola/ocean"
   },
   { 
     "remote":      "github",
