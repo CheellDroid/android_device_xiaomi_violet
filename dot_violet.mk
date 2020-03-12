@@ -19,18 +19,18 @@ $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 2160
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_violet
-PRODUCT_DEVICE := violet
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 7 Pro
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_NAME := dot_ocean
+PRODUCT_DEVICE := ocean
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := G7 Power
+PRODUCT_MANUFACTURER := Motorola
 
-BUILD_FINGERPRINT := "xiaomi/violet/violet:9/PKQ1.181203.001/V10.3.9.0.PFHINXM:user/release-keys"
+BUILD_FINGERPRINT := "motorola/motorola/ocean:9/PKQ1.181203.001/V10.3.9.0.PFHINXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="violet-user 9 PKQ1.181203.001 V10.3.9.0.PFHINXM release-keys" \
-    PRODUCT_NAME="violet" \
-    TARGET_DEVICE="violet" \
-    DEVICE_MAINTAINERS="Mithil"
+    PRODUCT_NAME="ocean" \
+    TARGET_DEVICE="ocean" \
+    DEVICE_MAINTAINERS="Peep97"
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
